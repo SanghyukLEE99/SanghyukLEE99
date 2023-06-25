@@ -9,7 +9,7 @@ import base64
 app = Flask(__name__)
 
 # FRED API 키 설정
-fred = Fred(api_key='5fa5ff016239309549ecd0184a37535e')
+fred = Fred(api_key='only me')
 
 # FRED 데이터 다운로드
 inflation_data = fred.get_series('FPCPITOTLZGUSA', observation_start='1973-01-01')
