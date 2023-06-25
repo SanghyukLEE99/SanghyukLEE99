@@ -9,7 +9,7 @@ import base64
 app = Flask(__name__)
 
 # FRED API
-fred = Fred(api_key='5fa5ff016239309549ecd0184a37535e')
+fred = Fred(api_key='only me')
 
 # FRED
 gdp_data = fred.get_series('GDPC1', observation_start='2003-01-01')
